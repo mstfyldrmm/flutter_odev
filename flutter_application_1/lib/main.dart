@@ -9,6 +9,7 @@ import 'package:flutter_application_1/odev_4/dimensions.dart';
 import 'package:flutter_application_1/odev_4/home_page.dart';
 import 'package:flutter_application_1/odev_4/mobile_body.dart';
 import 'package:flutter_application_1/odev_4/responsive_layout.dart';
+import 'package:flutter_application_1/odev_5/firstApp.dart';
 import 'package:flutter_application_1/odev_5/home_screen.dart';
 import 'package:flutter_application_1/odev_5/random_words.dart';
 import 'package:flutter_application_1/odev_5/saved_words.dart';
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget {
           title: 'Flutter Demo',
           debugShowCheckedModeBanner: false,
           theme: ThemeData.light(),
-          home: HomeScreen()),
+          home: FirstScreen()),
     );
   }
 }
